@@ -1,0 +1,37 @@
+{
+    "name": "Шиномонтаж у Диего",
+    "short_name": "у Диего",
+    "description": "Шиномонтаж в Батайске: замена колёс, балансировка, ремонт проколов, правка дисков. Без очередей и по честной цене.",
+    "lang": "ru",
+    "start_url": "/",
+    "scope": "/",
+    "display": "browser",
+    "background_color": "#0f1115",
+    "theme_color": "#0f1115",
+    "icons": [
+        {
+            "src": "/img/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/img/icons/maskable_icon_x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/img/icons/maskable_icon_x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/img/icons/maskable_icon_x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

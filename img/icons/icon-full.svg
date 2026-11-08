@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#0f1115"/>
+  <g transform="translate(16 16) scale(0.82) translate(-16 -16)">
+    <!-- шина -->
+    <circle cx="16" cy="16" r="14.5" fill="#151920" stroke="#2b313d" stroke-width="1.5"/>
+    <!-- протектор: 8 насечек -->
+    <g stroke="#2b313d" stroke-width="1.3" stroke-linecap="round">
+      <path d="M29 16h1.8M23.7 23.7l1.3 1.3M16 29v1.8M8.3 23.7L7 25M3 16h1.8M8.3 8.3 7 7M16 3v1.8M23.7 8.3 25 7"/>
+    </g>
+    <!-- диск -->
+    <circle cx="16" cy="16" r="9" fill="#0f1115" stroke="#f59e0b" stroke-width="2"/>
+    <!-- 5 спиц строго через центр, шаг 72° -->
+    <g stroke="#f59e0b" stroke-width="1.8" stroke-linecap="round">
+      <path d="M16 12.5V7.5"/>
+      <path d="M19.3 14.9 24.1 13.4"/>
+      <path d="M18.1 18.8 21 22.9"/>
+      <path d="M13.9 18.8 11 22.9"/>
+      <path d="M12.7 14.9 7.9 13.4"/>
+    </g>
+    <!-- ступица -->
+    <circle cx="16" cy="16" r="2.4" fill="#f59e0b"/>
+  </g>
+</svg>
