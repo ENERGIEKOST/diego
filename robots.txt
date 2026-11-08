@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /font-awesome-4.7.0/
+
+User-agent: Yandex
+Allow: /
+Disallow: /font-awesome-4.7.0/
+
+Sitemap: https://spetsodezhdabt.ru/sitemap.xml
