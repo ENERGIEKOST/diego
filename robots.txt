@@ -8,5 +8,5 @@ Allow: /
 Disallow: /font-awesome-4.7.0/
 Disallow: /screenshots/
 
-# ЗАМЕНИТЕ vash-domen.ru на реальный домен при публикации
-Sitemap: https://vash-domen.ru/sitemap.xml
+Sitemap: https://udiego.ru/sitemap.xml
+Host: udiego.ru
