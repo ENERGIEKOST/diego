@@ -409,16 +409,18 @@ h2::after { content: ""; display: block; width: 48px; height: 3px; background: v
 @media (max-width: 1023px) {
   .phone-top { font-size: 14px; }
 }
+/* на телефонах: заметный зазор между иконкой телефона и бургером
+   (gap действует только между ними — до логотипа отступ держит margin-left:auto) */
 @media (max-width: 480px) {
   .phone-top { font-size: 0; gap: 0; }
   .phone-top svg { width: 22px; height: 22px; }
   .logo { font-size: 13.5px; gap: 7px; }
   .logo-ico { width: 20px; height: 20px; }
-  .header-inner { gap: 10px; }
+  .header-inner { gap: 18px; }
   .modal-box { padding: 20px; }
 }
 @media (max-width: 360px) {
-  .header-inner { gap: 8px; }
+  .header-inner { gap: 12px; }
   .logo { font-size: 12px; gap: 6px; letter-spacing: 0.2px; }
   .logo-ico { width: 18px; height: 18px; }
   .phone-top svg { width: 18px; height: 18px; }
